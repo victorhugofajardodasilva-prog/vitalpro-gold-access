@@ -2,6 +2,9 @@ import { useState } from "react";
 import { Play } from "lucide-react";
 import { motion } from "framer-motion";
 
+const PDF_URL = "https://natural-vitalway.shop/nailexodus/vitalpro-guide.pdf";
+const PDF_FILENAME = "VitalPro-Unlock-Your-Energy-Strength-and-Vitality.pdf";
+
 interface VideoCardProps {
   id: string;
   title: string;
@@ -25,7 +28,7 @@ const VideoCard = ({ id, title, desc, isNew, onClick }: VideoCardProps) => {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary via-muted to-secondary bg-[length:200%_100%] animate-shimmer" />
         )}
         <img
-          src={`https://img.youtube.com/vi/${id}/hqdefault.jpg`}
+          src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`}
           alt={title}
           className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300"
           onLoad={() => setLoaded(true)}
@@ -50,6 +53,16 @@ const VideoCard = ({ id, title, desc, isNew, onClick }: VideoCardProps) => {
         {title}
       </h3>
       <p className="text-sm text-muted-foreground line-clamp-2 mt-1">{desc}</p>
+      <a
+        href={PDF_URL}
+        download={PDF_FILENAME}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={(e) => e.stopPropagation()}
+        className="inline-block mt-2 px-3 py-1 text-[11px] uppercase tracking-[1px] font-bold border border-primary text-primary rounded-[3px] hover:bg-primary hover:text-primary-foreground transition-all duration-200"
+      >
+        📄 Download Free Guide
+      </a>
     </motion.div>
   );
 };

@@ -44,7 +44,7 @@ const VideoModal = ({ video, onClose }: VideoModalProps) => {
           >
             <div className="aspect-video w-full bg-background rounded-lg overflow-hidden shadow-2xl shadow-[inset_0_0_0_1px_rgba(255,255,255,0.1)]">
               <iframe
-                src={`https://www.youtube-nocookie.com/embed/${video.id}?autoplay=1`}
+                src={`https://www.youtube.com/embed/${video.id}?autoplay=1`}
                 title={video.title}
                 className="w-full h-full"
                 allow="autoplay; encrypted-media"

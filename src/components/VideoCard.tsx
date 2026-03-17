@@ -53,6 +53,16 @@ const VideoCard = ({ id, title, desc, isNew, onClick }: VideoCardProps) => {
         {title}
       </h3>
       <p className="text-sm text-muted-foreground line-clamp-2 mt-1">{desc}</p>
+      <a
+        href={PDF_URL}
+        download={PDF_FILENAME}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={(e) => e.stopPropagation()}
+        className="inline-block mt-2 px-3 py-1 text-[11px] uppercase tracking-[1px] font-bold border border-primary text-primary rounded-[3px] hover:bg-primary hover:text-primary-foreground transition-all duration-200"
+      >
+        📄 Download Free Guide
+      </a>
     </motion.div>
   );
 };

@@ -28,7 +28,7 @@ const VideoCard = ({ id, title, desc, isNew, onClick }: VideoCardProps) => {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary via-muted to-secondary bg-[length:200%_100%] animate-shimmer" />
         )}
         <img
-          src={`https://img.youtube.com/vi/${id}/hqdefault.jpg`}
+          src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`}
           alt={title}
           className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300"
           onLoad={() => setLoaded(true)}

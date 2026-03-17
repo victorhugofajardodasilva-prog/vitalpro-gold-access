@@ -152,9 +152,9 @@ const Index = () => {
                   <div className="flex-1">
                     <h3 className="text-2xl font-black uppercase font-display leading-none mb-1">{bonus.title}</h3>
                     <p className="text-muted-foreground text-sm mb-4">{bonus.desc}</p>
-                    <button className="flex items-center gap-2 text-xs font-black uppercase tracking-widest text-primary hover:text-foreground transition-colors">
-                      <Download size={14} /> Download PDF
-                    </button>
+                    <a href={PDF_URL} download={PDF_FILENAME} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs font-black uppercase tracking-widest text-primary hover:text-foreground transition-colors">
+                      <Download size={14} /> ⬇ Download PDF
+                    </a>
                   </div>
                 </div>
               );

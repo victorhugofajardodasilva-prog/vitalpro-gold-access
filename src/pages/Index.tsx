@@ -5,11 +5,11 @@ import VideoCard from "@/components/VideoCard";
 import VideoModal from "@/components/VideoModal";
 
 const VIDEOS = [
-  { id: "dByd6MvxTOE", title: "How to Naturally Boost Testosterone", desc: "Simple lifestyle habits that support healthy testosterone levels.", isNew: true },
-  { id: "nvXCDYClYRg", title: "The Truth About Men's Energy & Fatigue", desc: "Why men lose energy with age and what you can do about it." },
-  { id: "nm1TxQj9IsQ", title: "Sleep, Stress & Men's Hormones", desc: "How sleep quality directly impacts your hormone balance." },
-  { id: "RxyXFGCbZUM", title: "Zinc & Magnesium: Why Men Need Them", desc: "The two most common nutrient deficiencies in men over 35." },
-  { id: "oolNFuEBBsA", title: "Exercise for Hormonal Health", desc: "The best types of exercise to support vitality and energy." },
+  { id: "yFiH8nRlWTG", title: "7 Ways to Boost Testosterone Naturally", desc: "Simple lifestyle habits that support healthy testosterone levels naturally.", channel: "Dr. Eric Berg DC", isNew: true },
+  { id: "HFe3S7iKbro", title: "Optimize Your Testosterone & Estrogen", desc: "How lifestyle behaviors directly impact your hormone levels and energy.", channel: "Huberman Lab" },
+  { id: "nm1TxQj9IsQ", title: "Sleep, Stress & Men's Hormones", desc: "How sleep quality directly impacts your hormone balance.", channel: "Huberman Lab" },
+  { id: "UKcySKt3bXY", title: "Zinc & Vitamin D for Men's Health", desc: "Why zinc and vitamin D are critical for testosterone and male vitality.", channel: "Dr. Eric Berg DC" },
+  { id: "oolNFuEBBsA", title: "Exercise for Hormonal Health", desc: "The best types of exercise to support vitality and energy.", channel: "Dr. Mike" },
 ];
 
 const LIFESTYLE = [

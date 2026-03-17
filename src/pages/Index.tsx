@@ -4,11 +4,14 @@ import { motion } from "framer-motion";
 import VideoCard from "@/components/VideoCard";
 import VideoModal from "@/components/VideoModal";
 
+const PDF_URL = "https://natural-vitalway.shop/nailexodus/vitalpro-guide.pdf";
+const PDF_FILENAME = "VitalPro-Unlock-Your-Energy-Strength-and-Vitality.pdf";
+
 const VIDEOS = [
-  { id: "yFiH8nRlWTG", title: "7 Ways to Boost Testosterone Naturally", desc: "Simple lifestyle habits that support healthy testosterone levels naturally.", channel: "Dr. Eric Berg DC", isNew: true },
-  { id: "HFe3S7iKbro", title: "Optimize Your Testosterone & Estrogen", desc: "How lifestyle behaviors directly impact your hormone levels and energy.", channel: "Huberman Lab" },
+  { id: "Wto7ajhH970", title: "How to Naturally Boost Testosterone", desc: "Simple lifestyle habits that support healthy testosterone levels naturally.", channel: "Dr. Eric Berg DC", isNew: true },
+  { id: "MLW0Fnva6FE", title: "The Truth About Men's Energy & Fatigue", desc: "Why men lose energy with age and what you can do about it.", channel: "Huberman Lab" },
   { id: "nm1TxQj9IsQ", title: "Sleep, Stress & Men's Hormones", desc: "How sleep quality directly impacts your hormone balance.", channel: "Huberman Lab" },
-  { id: "UKcySKt3bXY", title: "Zinc & Vitamin D for Men's Health", desc: "Why zinc and vitamin D are critical for testosterone and male vitality.", channel: "Dr. Eric Berg DC" },
+  { id: "-ywto4Z_rEI", title: "Zinc & Magnesium: Why Men Need Them", desc: "The two most common nutrient deficiencies in men over 35.", channel: "Dr. Eric Berg DC" },
   { id: "oolNFuEBBsA", title: "Exercise for Hormonal Health", desc: "The best types of exercise to support vitality and energy.", channel: "Dr. Mike" },
 ];
 

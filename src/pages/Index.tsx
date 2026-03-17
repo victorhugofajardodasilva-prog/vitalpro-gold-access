@@ -87,9 +87,9 @@ const Index = () => {
               <button className="px-8 py-3 bg-primary text-primary-foreground font-black uppercase tracking-wider rounded-sm hover:brightness-90 transition-all flex items-center gap-2">
                 <Play size={18} fill="currentColor" /> Start Watching
               </button>
-              <button className="px-8 py-3 bg-foreground/10 backdrop-blur-md border border-foreground/20 text-foreground font-black uppercase tracking-wider rounded-sm hover:bg-foreground/20 transition-all flex items-center gap-2">
+              <a href={PDF_URL} download={PDF_FILENAME} target="_blank" rel="noopener noreferrer" className="px-8 py-3 bg-foreground/10 backdrop-blur-md border border-foreground/20 text-foreground font-black uppercase tracking-wider rounded-sm hover:bg-foreground/20 transition-all flex items-center gap-2">
                 <Download size={18} /> Download Guide
-              </button>
+              </a>
             </div>
           </motion.div>
         </div>

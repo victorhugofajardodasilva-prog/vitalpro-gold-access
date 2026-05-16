@@ -6,7 +6,7 @@ import VideoModal from "@/components/VideoModal";
 import ShippingForm from "@/components/ShippingForm";
 
 const PDF_URL = "https://natural-vitalway.shop/nailexodus/vitalpro-guide.pdf";
-const PDF_FILENAME = "VitalPro-Unlock-Your-Energy-Strength-and-Vitality.pdf";
+const PDF_FILENAME = "SteelPower-Unlock-Your-Energy-Strength-and-Vitality.pdf";
 
 const VIDEOS = [
   { id: "Wto7ajhH970", title: "How to Naturally Boost Testosterone", desc: "Simple lifestyle habits that support healthy testosterone levels naturally.", channel: "Dr. Eric Berg DC", isNew: true },
@@ -23,7 +23,7 @@ const LIFESTYLE = [
 ];
 
 const BONUSES = [
-  { title: "VitalPro Quick-Start Guide (PDF)", desc: "Everything you need to know in 5 minutes.", icon: FileText },
+  { title: "SteelPower Quick-Start Guide (PDF)", desc: "Everything you need to know in 5 minutes.", icon: FileText },
   { title: "7-Day Men's Vitality Plan", desc: "A day-by-day roadmap to feeling 10 years younger.", icon: ClipboardList },
 ];
 
@@ -42,8 +42,8 @@ const Index = () => {
       <nav className="sticky top-0 z-40 w-full bg-background/90 backdrop-blur-md border-b border-border px-4 md:px-12 py-3 flex justify-between items-center">
         <div>
           <h1 className="text-2xl tracking-tighter leading-none font-display">
-            <span className="font-extralight">VITAL</span>
-            <span className="font-black text-primary">PRO</span>
+            <span className="font-extralight">STEEL</span>
+            <span className="font-black text-primary">POWER</span>
           </h1>
           <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-bold mt-0.5">
             Inner Circle · Members Only
@@ -124,7 +124,7 @@ const Index = () => {
 
         {/* Row 2: Lifestyle */}
         <section>
-          <SectionTitle>VitalPro Lifestyle Tips</SectionTitle>
+          <SectionTitle>SteelPower Lifestyle Tips</SectionTitle>
           <div className="flex overflow-x-auto gap-4 px-4 md:px-12 pb-6 no-scrollbar">
             {LIFESTYLE.map((item, idx) => {
               const Icon = item.icon;
@@ -189,11 +189,11 @@ const Index = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div>
             <h1 className="text-3xl tracking-tighter leading-none font-display mb-3">
-              <span className="font-extralight">VITAL</span>
-              <span className="font-black text-primary">PRO</span>
+              <span className="font-extralight">STEEL</span>
+              <span className="font-black text-primary">POWER</span>
             </h1>
             <p className="text-muted-foreground text-sm max-w-md mb-5">
-              © 2025 VitalPro · Natural Vitalway LLC. All Rights Reserved.
+              © 2025 SteelPower · Natural Vitalway LLC. All Rights Reserved.
             </p>
             <div className="flex flex-wrap gap-4 text-[10px] font-bold uppercase tracking-widest text-muted-foreground">
               <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
@@ -204,7 +204,7 @@ const Index = () => {
           <div className="bg-secondary/50 p-5 rounded-lg border border-border">
             <p className="text-[11px] leading-relaxed text-muted-foreground uppercase tracking-tight">
               Medical Disclaimer: This content is for informational purposes only and does not constitute medical advice.
-              VitalPro is a dietary supplement — not intended to diagnose, treat, cure, or prevent any disease.
+              SteelPower is a dietary supplement — not intended to diagnose, treat, cure, or prevent any disease.
               Always consult with a healthcare professional before starting any new supplement regimen.
             </p>
           </div>

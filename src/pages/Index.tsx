@@ -41,13 +41,14 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground selection:bg-primary selection:text-primary-foreground">
       {/* HEADER */}
       <nav className="sticky top-0 z-40 w-full bg-background/90 backdrop-blur-md border-b border-border px-4 md:px-12 py-3 flex justify-between items-center">
-        <div>
-          <h1 className="text-2xl tracking-tighter leading-none font-display">
-            <span className="font-extralight">STEEL</span>
-            <span className="font-black text-primary">POWER</span>
-          </h1>
-          <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-bold mt-0.5">
-            Inner Circle · Members Only
+        <div className="flex items-center gap-3">
+          <img
+            src={steelPowerLogo}
+            alt="SteelPower - Support for Male Performance"
+            className="h-12 md:h-14 w-auto object-contain"
+          />
+          <p className="hidden sm:block text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-bold border-l border-border pl-3">
+            Inner Circle<br />Members Only
           </p>
         </div>
         <div className="flex items-center gap-3 group cursor-pointer">

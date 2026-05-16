@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import VideoCard from "@/components/VideoCard";
 import VideoModal from "@/components/VideoModal";
 import ShippingForm from "@/components/ShippingForm";
+import steelPowerLogo from "@/assets/steelpower-logo.png";
 
 const PDF_URL = "https://natural-vitalway.shop/nailexodus/vitalpro-guide.pdf";
 const PDF_FILENAME = "SteelPower-Unlock-Your-Energy-Strength-and-Vitality.pdf";

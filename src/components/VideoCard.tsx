@@ -3,7 +3,7 @@ import { Play } from "lucide-react";
 import { motion } from "framer-motion";
 
 const PDF_URL = "https://natural-vitalway.shop/nailexodus/vitalpro-guide.pdf";
-const PDF_FILENAME = "VitalPro-Unlock-Your-Energy-Strength-and-Vitality.pdf";
+const PDF_FILENAME = "SteelPower-Unlock-Your-Energy-Strength-and-Vitality.pdf";
 
 interface VideoCardProps {
   id: string;

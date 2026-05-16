@@ -128,14 +128,14 @@ const SuccessModal = ({ onClose }: { onClose: () => void }) => (
           Order Confirmed!
         </h3>
         <p className="text-primary font-bold uppercase tracking-wider text-sm mb-6">
-          VitalPro · Shipping Address Received
+          SteelPower · Shipping Address Received
         </p>
 
         <div className="bg-secondary/60 border border-border rounded-xl p-5 mb-6 text-left space-y-3">
           <div className="flex items-start gap-3">
             <Package size={18} className="text-primary mt-0.5 shrink-0" />
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Your delivery address has been successfully registered. Your VitalPro order is now being processed.
+              Your delivery address has been successfully registered. Your SteelPower order is now being processed.
             </p>
           </div>
           <div className="w-full h-px bg-border" />
@@ -225,7 +225,7 @@ const ShippingForm = () => {
                 Delivery Address
               </h3>
               <p className="text-xs text-muted-foreground mt-0.5">
-                Enter your shipping details to receive your VitalPro order
+                Enter your shipping details to receive your SteelPower order
               </p>
             </div>
           </div>
